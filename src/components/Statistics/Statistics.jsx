@@ -1,5 +1,5 @@
 import css from './Statistics.module.css';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 const getRandomHexColor = () => {
     return `#${Math.floor(Math.random() * 16777215)

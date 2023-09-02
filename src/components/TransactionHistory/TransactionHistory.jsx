@@ -1,4 +1,3 @@
-import css from './TransactionHistory.module.css';
 import PropTypes from 'prop-types';
 
 const getRandomHexColor = () => {
