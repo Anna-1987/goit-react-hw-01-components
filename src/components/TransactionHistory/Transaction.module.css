@@ -1,10 +1,11 @@
-table {
+ .transaction__history {
     margin-top: 30px;
     box-shadow: 0 0 10px #c6cccced;
     width: 370px;
     border-spacing: 0;
   }
-  thead tr {
+
+   thead tr {
     margin-bottom: 5px;
     padding: 10px;
   }
@@ -30,4 +31,4 @@ table {
   }
   table tr:not(:last-child) {
     margin-bottom: 5px;
-  }
+  } 

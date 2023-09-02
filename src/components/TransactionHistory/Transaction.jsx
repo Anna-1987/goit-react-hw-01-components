@@ -1,3 +1,4 @@
+import css from './Transaction.module.css';
 import PropTypes from 'prop-types';
 
 const getRandomHexColor = () => {
@@ -9,7 +10,7 @@ const getRandomHexColor = () => {
 export const TransactionHistory = ({items}) => {
 
  return (
-    <table>
+    <table className={css.transaction__history}>
       <thead>
         <tr style={{ backgroundColor: getRandomHexColor() }}>
           <th>Type</th>
